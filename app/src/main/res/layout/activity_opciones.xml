@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Botón para Jugar -->
+    <Button
+        android:id="@+id/btnJugarRuleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jugar Ruleta"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- Botón para Historial -->
+    <Button
+        android:id="@+id/btnHistorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historial"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- Botón para Configuración -->
+    <Button
+        android:id="@+id/btnConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuración"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- Botón para Salir -->
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+</LinearLayout>

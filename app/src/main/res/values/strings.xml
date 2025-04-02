@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nativex</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="recuperar_contrase_a">Recuperar contraseña</string>
+    <string name="ir_al_login">Ir al Login</string>
+    <string name="enviar_correo">Enviar Correo</string>
+    <string name="enviar_correo_desc">enviar_correo\n</string>
+    <string name="monedas_0">Monedas: 0</string>
+    <string name="tirar">Tirar</string>
+    <string name="salir">Salir</string>
+    <string name="monedas_label">Monedas: %d</string>
+    <string name="puntuacion_item">Fecha: %s - Monedas: %d</string>
+    <string name="monedas_100">Monedas: 100</string>
+    <string name="flecha_desc" />
+    <string name="monedas_default">Monedas: 100</string>
+    <string name="tiradas_default">Tiradas: 5</string>
+    <string name="monedas">Monedas: %1$d</string>
+    <string name="tiradas">Tiradas: %1$d</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permisos para fotos seleccionadas en Android 14+ -->
+    <uses-permission android:name="android.permission.READ_SELECTED_PHOTOS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ruletadani"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ruletadani"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nativex"
+        tools:targetApi="31">
+
+        <!-- Actividad principal (Bienvenida) -->
+        <activity
+            android:name=".ui.BienvenidaActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividades de autenticación -->
+        <activity
+            android:name=".auth.AuthActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.RecuperarActivity"
+            android:exported="false" />
+
+        <!-- Otras actividades -->
+        <activity
+            android:name=".ui.ConfigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HistorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.OpcionesActivity"
+            android:exported="false" />
+
+        <!-- MainActivity que lanza la pantalla de bienvenida -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
