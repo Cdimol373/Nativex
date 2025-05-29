@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NativexCristina</string>
+    <string name="bienvenido_a_la_ruleta">¡Bienvenido a la Ruleta!</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="no_tienes_cuenta_reg_strate">¿No tienes cuenta? Regístrate</string>
+    <string name="enviar_correo">Enviar Correo</string>
+    <string name="enviar_correo_desc">Botón para enviar correo de recuperación</string>
+    <string name="monedas_default">Monedas: 0</string>
+    <string name="tiradas_default">Tiradas: 5</string>
+    <string name="tirar">Tirar</string>
+    <string name="salir">Salir</string>
+    <string name="resultado_partida">Resultado: %1$s</string>
+    <string name="flecha_desc">Flecha para indicar la dirección de la ruleta</string>
+    <string name="monedas_0">Monedas: 0</string>
+    <string name="monedas_label">Monedas actuales: %1$d</string>
+    <string name="puntuacion_item">%1$s - Monedas: %2$d</string>
+    <string name="tiradas_label">Tiradas: %1$d</string>
+    <string name="historial_de_partidas">Historial de Partidas</string>
+    <string name="lista_del_historial_de_partidas">Lista del historial de partidas</string>
+    <string name="volver">Volver</string>
+    <string name="partidas">Partidas:</string>
+    <string name="monedas">Monedas:</string>
+    <string name="entrar_como_cristina">Entrar como Cristina</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="ya_tienes_cuenta_inicia_sesi_n">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="volver_a_jugar">Volver a Jugar</string>
+    <string name="ver_puntuaci_n">Ver Puntuación</string>
+    <string name="sonido">sonido</string>
+    <string name="captura">Captura</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="monedas_100">Monedas: 100</string>
+    <string name="tiradas_5">Tiradas: 5</string>
+
+
+</resources>
